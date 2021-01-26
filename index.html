@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <title>My Garage</title>
 </head>
+
 <body>
     <header>
         <h1>My Car Garage</h1>
     </header>
     <form action="">
         <label for="carName">Car Name</label><br>
-        <input type="text" id="carName" ><br>
+        <input type="text" id="carName"><br>
         <label for="cars">Category Model</label><br>
         <select name="cars" id="carsList">
-        <option value="toyota">Toyota</option>
-        <option value="tesla">Tesla</option>
-        <option value="lexus">Lexus</option>
-        <option value="chevrolet">Chevrolet</option>
-        <option value="bmw">BMW</option>
-        <option value="kia">Kia</option>
-        <option value="hyundai">Hyundai</option>
+            <option value="toyota">Toyota</option>
+            <option value="tesla">Tesla</option>
+            <option value="lexus">Lexus</option>
+            <option value="chevrolet">Chevrolet</option>
+            <option value="bmw">BMW</option>
+            <option value="kia">Kia</option>
+            <option value="hyundai">Hyundai</option>
         </select><br>
         <label for="modelYear">Model Year</label><br>
         <select name="year" id="modelYear">
@@ -38,11 +43,12 @@
             <option value="2019">2019</option>
             <option value="2020">2020</option>
         </select><br><br>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" id="submit-button">
     </form>
     <ul id="selected-car">
 
     </ul>
     <script src="js/script.js"></script>
 </body>
+
 </html>

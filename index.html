@@ -3,9 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>My Garage</title>
 </head>
 <body>
-    
+    <header>
+        <h1>My Car Garage</h1>
+    </header>
+    <form action="">
+        <label for="carName">Car Name</label><br>
+        <input type="text" id="carName" ><br>
+        <label for="cars">Category Model</label><br>
+        <select name="cars" id="carsList">
+        <option value="toyota">Toyota</option>
+        <option value="tesla">Tesla</option>
+        <option value="lexus">Lexus</option>
+        <option value="chevrolet">Chevrolet</option>
+        <option value="bmw">BMW</option>
+        <option value="kia">Kia</option>
+        <option value="hyundai">Hyundai</option>
+        </select><br>
+        <label for="modelYear">Model Year</label><br>
+        <select name="year" id="modelYear">
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <ul id="selected-car">
+
+    </ul>
+    <script src="js/script.js"></script>
 </body>
 </html>
